@@ -1,0 +1,95 @@
+.App {
+  text-align : center;
+  display : flex;
+  flex-direction : column;
+  justify-content : center;
+  align-items : center;
+}
+
+header {
+  padding : 10px;
+  font-size : larger;
+}
+
+body {
+  height : 100%;
+  background-color : #d6eaf8;
+}
+
+label {
+  font-size : small;
+  font-style : italic;
+}
+
+button {
+  color : white;
+  background-color : blue; /*find suitable contrast but gentler than pure blue*/
+  border-radius : 3px;
+}
+
+/*styles for citycard*/
+#city-card-holder {
+  display : flex;
+  flex-direction : column;
+  justify-content : center;
+  align-items : center;
+  width : 100%;
+}
+
+section {
+  justify-content : center;
+  text-align : center;
+  word-wrap: break-word;
+  margin-top : 20px;
+  padding : 10px;
+  width : 95%;
+  max-width : 400px;
+  box-shadow : 2px 2px 5px gray;
+  background-color : #FFFFFF;
+}
+
+.location-display {
+  text-align : left;
+}
+
+.sky-display {
+  margin-top : 10px;
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+}
+.weather-icon {
+  align-self : center;
+}
+
+.temp-display {
+  font-size : 1.5em;
+  margin-bottom : 10px;
+}
+sup {
+  font-size : 0.6em;
+}
+.temperature-icon {
+  width : 30px;
+  height : auto;
+}
+
+.time-display {
+  text-align : right;
+  font-size : smaller;
+  font-style : italic;
+}
+
+/*styles for footer */
+footer {
+  justify-content : center;
+  font-style : italic;
+  position : absolute;
+  bottom : 10px;
+  width : 100%;
+  text-align : center;
+}
+
+.logo {
+  width : 128px;
+}
