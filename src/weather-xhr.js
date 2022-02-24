@@ -123,7 +123,7 @@ function displayCityCard(weatherData, setter) {
 function weatherXHR(cityOrWeather, value, location, callback) {
   // remember during testing that there's a max of 50 api calls per day
 
-  let path = "http://dataservice.accuweather.com/";
+  let path = "https://dataservice.accuweather.com/";
   let miscParams = "&language=en-US";
 
   let defaultError = <section>Sorry, there was a problem fetching the weather info.</section>;
